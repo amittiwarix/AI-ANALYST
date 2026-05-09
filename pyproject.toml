@@ -1,0 +1,13 @@
+[project]
+name = "ai-analyst"
+version = "0.1.0"
+description = "TEXT TO SQL"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "langchain-community>=0.4.1",
+    "langchain-core>=1.3.3",
+    "langchain-ollama>=0.2.0",
+    "sqlalchemy>=2.0.49",
+    "streamlit>=1.57.0",
+]
